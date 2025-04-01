@@ -1,18 +1,63 @@
-## Getting Started
+# Desafio de Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém a solução para o desafio de Controle de Fluxo, onde implementamos um contador que recebe dois números inteiros como entrada e imprime uma contagem entre eles. Caso o primeiro número seja maior que o segundo, uma exceção personalizada é lançada.
 
-## Folder Structure
+## 📌 Funcionalidades
+- Recebe dois números inteiros via terminal.
+- Verifica se o primeiro número é maior que o segundo e lança uma exceção customizada.
+- Exibe uma contagem progressiva dos números no console.
 
-The workspace contains two folders by default, where:
+## 🚀 Tecnologias Utilizadas
+- Java
+- Tratamento de Exceções
+- Estruturas de Controle de Fluxo (if, for)
+- Scanner para entrada de dados
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 Estrutura do Projeto
+```
+DesafioControleFluxo/
+│-- src/
+│   ├── Contador.java
+│   ├── ParametrosInvalidosException.java
+│-- README.md
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠 Como Executar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/JeanAlencar01/Dio-Trilha-Java-Basico/tree/main/Desafio-Controle-Fluxo
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd DesafioControleFluxo
+   ```
+3. Compile o código:
+   ```bash
+   javac src/*.java
+   ```
+4. Execute o programa:
+   ```bash
+   java src.Contador
+   ```
+5. Digite os dois números inteiros quando solicitado.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📜 Exemplo de Uso
+```
+Digite o primeiro parâmetro:
+5
+Digite o segundo parâmetro:
+10
 
-## Dependency Management
+Imprimindo o número 1
+Imprimindo o número 2
+Imprimindo o número 3
+...
+```
+Caso o primeiro parâmetro seja maior que o segundo, a seguinte mensagem é exibida:
+```
+O segundo parâmetro deve ser maior que o primeiro
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📌 Autor
+Desenvolvido por [Jean Alencar](https://github.com/JeanAlencar01).
+
